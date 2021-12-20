@@ -73,7 +73,7 @@ curl -LJO $myurl/env.yaml
 Edit the **env.yaml** file and set your own values according to the [usage](#usage) section.
 
 ```bash
-PROJECT_NUMBER: cv-solution-architect-lab
+PROJECT_NUMBER: "my-gcp-project-id"
 VOLUMES: "'abcdefgh-1234-5678-1234-abcdefgh1234,12345678-abcd-efgh-ijkl-123456789012'"
 DAILY_SNAPSHOTS_TO_KEEP: "7"
 WEEKLY_SNAPSHOTS_TO_KEEP: "4"
