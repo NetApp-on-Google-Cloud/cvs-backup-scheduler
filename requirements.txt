@@ -1,0 +1,7 @@
+# Function dependencies, for example:
+pyparsing == 2.4.7
+requests
+google
+google.auth
+google-api-python-client
+google-cloud-secret-manager==1.0.0
