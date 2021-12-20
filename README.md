@@ -67,8 +67,8 @@ cd cvs_backup_scheduler/
 myurl='https://raw.githubusercontent.com/NetApp-on-Google-Cloud/cvs-backup-scheduler/main'
 curl -LJO $myurl/main.py
 curl -LJO $myurl/getGoogleProjectNumber.py
-curl -LJ0 $myurl/requirements.txt
-curl -LJ0 $myurl/env.yaml
+curl -LJO $myurl/requirements.txt
+curl -LJO $myurl/env.yaml
 ```
 Edit the **env.yaml** file and set your own values according to the [usage](#usage) section.
 
