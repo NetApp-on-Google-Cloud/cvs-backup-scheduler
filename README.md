@@ -102,6 +102,16 @@ Six arguments are needed as input:
 * **MONTHLY_SNAPSHOTS_TO_KEEP**: Number of monthly snapshots to keep. Set to 0 if no monthly snapshots are required.
 * **YEARLY_SNAPSHOTS_TO_KEEP**: Number of yearly snapshots to keep. Set to 0 if no yearly snapshots are required.
 
+### Output
+
+The backup name is based on the volume name, the backup type and a timestamp. See below an example with two volumes.
+
+<img src="images/example1.jpg">
+
+Cloud Volumes Service backup scheduler running two daily, one weekly and one yearly backup provides the below output.
+
+<img src="images/example2.jpg">
+
 ## Support
 This tool is not supported by NetApp or Google.
 
